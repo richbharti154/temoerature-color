@@ -31,7 +31,7 @@ export default function App() {
       <button className='decre' onClick={handleclick1}>decre</button>
     </div>
     <div  style={{backgroundColor:color,margin:'20px'}}>
-      {arr.map((element)=><p className='change'><button onClick={()=>handleClick2(element)}>{element}
+      {arr.map((element)=><p className='change'><button className='button' onClick={()=>handleClick2(element)}>{element}
       </button></p>)}
       </div>
       </div>

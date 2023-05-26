@@ -5,15 +5,20 @@ p {
 }
 .heading{
   margin-left: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: red;
 }
 .incre{
   margin:15px;
   cursor:pointer;
-  color:red;
+  color :white;
   border-radius: 4rem;
   width:15rem;
   border:1px solid blue;
   margin-left: 40px;
+  background-color: red;
   
   
 }
@@ -25,24 +30,38 @@ p {
 .decre{
   margin:15px;
   cursor:pointer;
-  color :blue;
+  color :white;
   border-radius: 4rem;
   width:15rem;
   border:1px solid red;
   margin-left: 35px;
+  background-color: blue;
 }
 .count{
   display: flex;
   place-items: center;
   flex-direction: column;
   font-size: 40px;
+  color: blue;
   
 }
 .change{
   margin-top: 80px;
-  margin-left: 30px;
+  margin-left: 34rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+ background-color: red;
   grid-template-columns: 4;
+  cursor:pointer;
+  color :blue;
+  border-radius: 4rem;
+  width:15rem;
+  border:1px solid red;
+  
+}
+.button{
+background-color: blue;
+width: 90%;
+border-radius: 4rem;
 }
